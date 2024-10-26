@@ -4,5 +4,8 @@ ConcreteSubscribers Sub2 = new ConcreteSubscribers();
 Sub1.Discount = 20;
 Sub2.Discount = 10;
 LapTop lapTop = new LapTop();
+SmartPhone phone = new SmartPhone();
 lapTop.AddSubscribe(Sub1);
+phone.AddSubscribe(Sub2);
 lapTop.DiscountForLapTop();
+phone.DiscountForSmartPhone();
