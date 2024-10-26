@@ -18,7 +18,7 @@ namespace DiscountShop
         {
             Subscribers.Remove(subscriber);
         }
-        public void NotifySubscribers()
+        protected void NotifySubscribers()
         {
             for (int i = 0; i < Subscribers.Count; i++)
             {
