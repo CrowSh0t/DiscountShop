@@ -8,6 +8,6 @@ namespace DiscountShop
 {
     public interface InterfaceSubscriber
     {
-        void Update(string context);
+        void Update(int context);
     }
 }

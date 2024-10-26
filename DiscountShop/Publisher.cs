@@ -22,7 +22,7 @@ namespace DiscountShop
         {
             for (int i = 0; i < Subscribers.Count; i++)
             {
-                Subscribers[i].Update("New discount");
+                Subscribers[i].Update(50);
             }
         }
     }
