@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DiscountShop
 {
-    public class Publisher
+    public abstract class Publisher
     {
-        List<InterfaceSubscriber> Subscribers = new List<InterfaceSubscriber>();
+        protected List<InterfaceSubscriber> Subscribers = new List<InterfaceSubscriber>();
 
         public void AddSubscribe(InterfaceSubscriber subscriber)
         {
